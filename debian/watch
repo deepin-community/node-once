@@ -1,0 +1,4 @@
+version=4
+opts=filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-once-$1/ \
+https://github.com/isaacs/once/tags .*/archive/.*/v?([\d\.]+).tar.gz	
+

@@ -1,0 +1,65 @@
+node-once (1.4.0-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ lintian-brush ]
+  * Bump debhelper from old 12 to 13
+  * Drop check for DEB_BUILD_OPTIONS containing "nocheck", since debhelper now
+    does this
+  * Update standards version to 4.6.0, no changes needed.
+
+  [ Yadd ]
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto test & install
+
+ -- Yadd <yadd@debian.org>  Thu, 04 Nov 2021 15:50:04 +0100
+
+node-once (1.4.0-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Install in /usr/lib/nodejs/once
+  * Bump standard version
+  * Bump debhelper compat
+  * fix lintian I override_dh_auto_test-does-not-check-DEB_BUILD_OPTIONS
+
+  [ Xavier Guimard ]
+  * Change license to ISC
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 22 Jan 2019 11:26:06 +0100
+
+node-once (1.4.0-2) unstable; urgency=medium
+
+  * Add node-wrappy to depends (Closes: #841274)
+  * Enable tests (during build and autopkgtest)
+  * Add myself as uploader
+  * Use https urls for vcs
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 20 Oct 2016 10:39:49 +0530
+
+node-once (1.4.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 18 Oct 2016 15:32:01 +0530
+
+node-once (1.1.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #706180)
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 26 Apr 2013 00:03:59 +0200
