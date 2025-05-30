@@ -7,7 +7,7 @@ Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , node-tap <!nocheck>
  , node-wrappy <!nocheck>
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/js-team/node-once
 Vcs-Git: https://salsa.debian.org/js-team/node-once.git
 Homepage: https://github.com/isaacs/once
